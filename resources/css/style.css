@@ -1,0 +1,61 @@
+@import url(/resources/css/reset.css);
+
+
+@import url(/resources/css/components/wrapper.css);
+@import url(/resources/css/components/button.css);
+@import url(/resources/css/sections/header.css);
+@import url(/resources/css/sections/intro.css);
+@import url(/resources/css/sections/testimonials.css);
+@import url(/resources/css/sections/blog.css);
+@import url(/resources/css/sections/cta.css);
+@import url(/resources/css/sections/footer.css);
+
+
+main{
+    overflow-x:hidden;
+}
+
+section{
+    padding: 100px 0px;
+}
+
+h1{
+    font-size: 56px;
+    color: #fff;
+    font-weight: 300;
+    text-align: center;
+}
+
+@media(min-width: 768px){
+    h1{
+        font-size: 68px;
+    }
+}
+
+h2{
+    font-size: 54px;
+    line-height: 58px;
+    color: #bf2026;
+    text-align: center;
+    margin-bottom: 70px;
+}
+
+@media(min-width: 1024px){
+    h2{
+        font-size: 68px;
+    }
+}
+
+h3{
+    font-size: 23px;
+    color: #000000;
+    margin-bottom: 10px;
+}
+
+h4{
+    font-size: 20px;
+    color: #000000;
+    font-weight: 700;
+    text-align: center;
+    margin-bottom: 50px;
+}

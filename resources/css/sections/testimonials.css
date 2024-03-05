@@ -1,0 +1,42 @@
+.testimonials-card{
+border: 1px solid #bf2026;
+padding: 30px 10px;
+opacity: 0.2;
+}
+
+@media(min-width: 768px){
+    .testimonials-card{
+        padding: 60px 50px;
+    }
+}
+
+.testimonials-card.swiper-slide-active{
+    opacity: 1;
+}
+
+.card-info{
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    margin-bottom: 50px;
+}
+
+.credencials span{
+    font-size: 17px;
+    color: #777777;
+}
+
+.description{
+font-size: 20px;
+color: #777;
+}
+
+
+.rating i{
+    line-height: 25px;
+    color: #bf2026;
+}
+
+.rating i:last-of-type{
+    opacity: 0.5;
+}

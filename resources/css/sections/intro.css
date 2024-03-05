@@ -1,0 +1,118 @@
+.intro{
+    background: url(/resources/images/intro-background.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 82rem;
+    display: flex;
+    padding-top: 150px;
+}
+
+.play-button{
+    position: relative;
+    width: 150px;
+    height: 150px;
+    border-radius: 100%;
+    background: #fff;
+    font-size: 70px;
+    color: #bf2026;
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.play-button i{
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    z-index: 3;
+    transform:translate(-35%, -45%);
+}
+
+.intro-inner{
+    max-width: 1000px;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 0px 15px;
+}
+
+@media(min-width: 992px){
+    .intro-inner{
+        padding: 0;
+    }
+}
+
+.intro-title{
+    margin-bottom: 50px;
+}
+
+
+.intro-subtitle{
+    max-width: 720px;
+    font-size: 22px;
+    font-weight: 300;
+    color: #fff;
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+@media(min-width: 768px){
+    .intro-subtitle{
+        font-size: 26px;
+    }
+}
+
+
+
+
+/*
+###########################
+######### MODAL ###########
+###########################*/
+
+.modal-bg{
+    position: fixed;
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    transition: opacity 0.4s ease-in-out;
+    top: 0;
+    left: 0;
+    background: rgba(0 0 0 /0.9);
+    width: 100vw;
+    height: 100vh;
+    backdrop-filter:blur(5px);
+    overflow-y:scroll;
+    z-index: 100;
+}
+
+.modal{
+   width: 70vw;
+   height: 70vh;
+    position:relative;
+}
+
+.modal iframe{
+    position: absolute;
+    top: 25%;
+    border: none;
+    width: 100%;
+    height: 100%;
+}
+
+.exit{
+    position: absolute;
+    top: 40px;
+    right: 40px;
+    font-size: 40px;
+    background: transparent;
+    border: none;
+    color: #fff;
+    cursor: pointer;
+}
+
+.modal-bg{
+    display: none;
+    opacity: 0;
+}

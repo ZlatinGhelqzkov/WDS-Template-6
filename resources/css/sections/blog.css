@@ -1,0 +1,82 @@
+.blog-cards-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 35px;
+}
+
+@media(min-width: 1024px){
+    .blog-cards-container{
+        flex-direction: row;
+    }
+}
+
+.blog-card-information{
+    max-width: 345px;
+    padding: 40px 30px 0px 30px;
+    border: 2px solid #bf1f25;
+    border-top:none;
+}
+
+.blog-date{
+    display: inline-block;
+    font-size: 20px;
+    color: #777777;
+    margin-bottom: 10px;
+}
+
+.blog-card-information h4{
+    font-size: 35px;
+    color: #000000;
+    margin-bottom: 20px;
+    text-align: start;
+}
+
+.blog-content{
+    font-size: 20px;
+    color: #777777;
+    margin-bottom: 20px;
+}
+
+.blog-interactions{
+    padding: 20px 0px 20px 0px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-size: 16px;
+    border-top: 1px solid #bf1f25;
+}
+
+.comments{
+    margin-right: 10px;
+}
+
+.comments,
+.views,
+.share {
+    display: inline-block;
+    color: #bf2026;
+}
+
+.blog-card-image{
+    position:relative;
+}
+
+.blog-card-image:hover{
+    cursor: pointer;
+}
+
+.blog-card-image > i{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    font-size: 50px;
+    display: none;
+    color: #fff;
+    transform:translate(-50%, -50%);
+}
+
+.blog-card-image:hover i{
+    display: inline-block;
+}
