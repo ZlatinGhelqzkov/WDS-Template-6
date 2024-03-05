@@ -1,5 +1,5 @@
 .intro{
-    background: url(/resources/images/intro-background.png);
+    background: url(../../images/intro-background.png);
     background-repeat: no-repeat;
     background-size: cover;
     min-height: 82rem;
