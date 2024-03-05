@@ -1,14 +1,14 @@
-@import url(/resources/css/reset.css);
+@import url(./reset.css);
 
 
-@import url(/resources/css/components/wrapper.css);
-@import url(/resources/css/components/button.css);
-@import url(/resources/css/sections/header.css);
-@import url(/resources/css/sections/intro.css);
-@import url(/resources/css/sections/testimonials.css);
-@import url(/resources/css/sections/blog.css);
-@import url(/resources/css/sections/cta.css);
-@import url(/resources/css/sections/footer.css);
+@import url(./components/wrapper.css);
+@import url(./components/button.css);
+@import url(./sections/header.css);
+@import url(./sections/intro.css);
+@import url(./sections/testimonials.css);
+@import url(./sections/blog.css);
+@import url(./sections/cta.css);
+@import url(./sections/footer.css);
 
 
 main{
